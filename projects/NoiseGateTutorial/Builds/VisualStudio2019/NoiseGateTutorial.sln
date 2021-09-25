@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2019
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoiseGateTutorial - Standalone Plugin", "NoiseGateTutorial_StandalonePlugin.vcxproj", "{2A708382-D020-62D9-D494-210E1D0B5BBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1888F0C7-55C0-A874-D000-4FAB5C8E960C} = {1888F0C7-55C0-A874-D000-4FAB5C8E960C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoiseGateTutorial - VST3", "NoiseGateTutorial_VST3.vcxproj", "{AC0E6B48-9409-29A6-4749-59D0F532D826}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1888F0C7-55C0-A874-D000-4FAB5C8E960C} = {1888F0C7-55C0-A874-D000-4FAB5C8E960C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoiseGateTutorial - Shared Code", "NoiseGateTutorial_SharedCode.vcxproj", "{1888F0C7-55C0-A874-D000-4FAB5C8E960C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0E6B48-9409-29A6-4749-59D0F532D826}.Debug|x64.ActiveCfg = Debug|x64
+		{AC0E6B48-9409-29A6-4749-59D0F532D826}.Debug|x64.Build.0 = Debug|x64
+		{AC0E6B48-9409-29A6-4749-59D0F532D826}.Release|x64.ActiveCfg = Release|x64
+		{AC0E6B48-9409-29A6-4749-59D0F532D826}.Release|x64.Build.0 = Release|x64
+		{2A708382-D020-62D9-D494-210E1D0B5BBA}.Debug|x64.ActiveCfg = Debug|x64
+		{2A708382-D020-62D9-D494-210E1D0B5BBA}.Debug|x64.Build.0 = Debug|x64
+		{2A708382-D020-62D9-D494-210E1D0B5BBA}.Release|x64.ActiveCfg = Release|x64
+		{2A708382-D020-62D9-D494-210E1D0B5BBA}.Release|x64.Build.0 = Release|x64
+		{1888F0C7-55C0-A874-D000-4FAB5C8E960C}.Debug|x64.ActiveCfg = Debug|x64
+		{1888F0C7-55C0-A874-D000-4FAB5C8E960C}.Debug|x64.Build.0 = Debug|x64
+		{1888F0C7-55C0-A874-D000-4FAB5C8E960C}.Release|x64.ActiveCfg = Release|x64
+		{1888F0C7-55C0-A874-D000-4FAB5C8E960C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
